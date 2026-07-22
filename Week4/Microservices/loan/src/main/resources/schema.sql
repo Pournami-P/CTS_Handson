@@ -1,0 +1,8 @@
+CREATE TABLE loans (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    number VARCHAR(50) UNIQUE NOT NULL,
+    type VARCHAR(50) NOT NULL,
+    loan DOUBLE NOT NULL,
+    emi DOUBLE NOT NULL,
+    tenure INT NOT NULL
+);
