@@ -1,0 +1,52 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap');
+
+:root {
+  /* Color tokens */
+  --color-bg: #f7f7f4;
+  --color-surface: #ffffff;
+  --color-surface-alt: #f0f0ea;
+  --color-ink: #20221e;
+  --color-ink-soft: #6d7166;
+  --color-border: #e3e2da;
+  --color-accent: #3d6b57;
+  --color-accent-dark: #2c4e3f;
+  --color-accent-soft: #e3ede7;
+  --color-gold: #a97e0a;
+  --color-gold-soft: #f4ead0;
+  --color-danger: #a23b2e;
+  --color-danger-soft: #f5e5e1;
+
+  /* Type tokens */
+  --font-display: 'Source Serif 4', Georgia, serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'IBM Plex Mono', 'SFMono-Regular', monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  color: var(--color-ink);
+  letter-spacing: -0.01em;
+}
+
+a {
+  color: var(--color-accent);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}

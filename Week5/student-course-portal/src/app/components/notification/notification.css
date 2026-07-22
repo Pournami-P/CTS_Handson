@@ -1,0 +1,64 @@
+.notification-box {
+  background-color: var(--color-accent-soft);
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.notification-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.notification-header h4 {
+  margin: 0;
+  color: var(--color-accent-dark);
+  font-size: 0.95rem;
+  font-family: var(--font-body);
+  font-weight: 600;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-body);
+}
+
+.btn-info {
+  background-color: var(--color-accent);
+  color: #ffffff;
+}
+
+.btn-clear {
+  background-color: var(--color-surface-alt);
+  color: var(--color-ink-soft);
+}
+
+.notif-list {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin: 0;
+  color: var(--color-ink);
+  font-size: 0.85rem;
+}
+
+.notif-item {
+  margin-bottom: 0.25rem;
+}
+
+.empty-notif {
+  font-size: 0.85rem;
+  color: var(--color-ink-soft);
+  margin: 0;
+}
